@@ -1,0 +1,305 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+ body{
+    text-align: center;
+    font-family:'Bai Jamjuree', sans-serif;
+    font-size:18px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    line-height: 100% ;
+}
+h1{
+    color:hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h2{
+    color:hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h5{
+    color:hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+#iOS {
+    background-color:hsl(171, 66%, 44%);
+    color: rgb(241, 234, 234);
+    font-size: 16px;
+    border-radius: 25px;
+    width: 20%;
+    height: 3rem;
+    border:1px;
+    box-shadow: 2px 2px 2px hsl(171, 66%, 44%);
+    margin-right: 2%;
+    cursor: pointer;
+    border-bottom: 4px solid hsl(171, 66%, 44%);
+}
+#Mac {
+    background-color:hsl(233, 100%, 69%);
+    color:white; 
+    font-size: 16px;
+    border-radius: 25px;
+    width: 20%;
+    height: 3rem;
+    border:1px;
+    box-shadow: 3px 3px 3px rgba(89, 37, 233, 0.857);
+    margin-left: 2% ;
+    cursor: pointer;
+    border-bottom: 4px solid hsl(233, 100%, 69%);
+}
+#e{
+    text-decoration: none;
+    color: aliceblue;
+}
+#first-logo{
+    margin: 5rem;
+    margin-bottom: 3%;
+}
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(201, 11%, 66%);
+}
+section{
+    display: flex;
+}
+/* footer p{
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+} */
+#iOS{
+    margin-top: 3rem;
+}
+footer
+    .part-pied1 a:hover {
+        color: hsl(171, 66%, 44%);
+    }
+
+footer 
+ .ppp ul li a:hover{
+    color: hsl(171, 66%, 44%); 
+}
+footer .part-pied1 a{
+    margin-right: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.paragraf-dern{
+    margin-top: 9rem;
+}
+.ibm{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+.icn{
+    margin-top: 6rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.computer {
+    width: 50%;
+}
+#computer{
+    width: 100%;
+    margin-left: -200px;
+}
+.part-2{
+    margin-top: 5rem;
+}
+.aqw{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ .paragraphe{
+    margin-left: 3%;
+    text-align: start;
+} 
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(222, 224, 226);
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 8%;
+    height: 6rem;
+    align-items: center;
+}
+
+.part-1{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+#first{
+    width: 50%;
+    height: 50%;
+    margin-left: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.z{
+    color:  hsl(201, 11%, 66%);
+    text-decoration: none;
+    text-align: right;
+}
+.part-pied1{
+    margin-right: 10%;
+}
+.ppp{
+    margin-right: 20%;
+    text-decoration: none;
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.refaire{
+    max-width: 1440px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-image: url(bg-header-desktop.png);
+    background-size: contain;
+    margin: auto;
+    overflow: hidden;
+} 
+
+@media screen and (max-width: 1440px){
+    body{
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+    .aqw{
+        text-align: center;
+
+    }
+    #computer{
+        /* margin-right: 150px; */
+    }
+}
+@media screen and (max-width: 560px) {
+    body{
+        font-size: 7px;
+        text-align: center;
+        display: flex;
+        background-image: image(bg-header-desktop);
+        flex-direction: column;
+    }
+    .aqw{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #computer{
+        text-align: center;
+        margin-right: -25rem;
+        width: 350px;
+    }
+    .paragraphe{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .icn{
+        display: flex;
+        flex-direction: column;
+    }
+    .blacklist{
+        margin-bottom: 10%;
+    }
+    .preview{
+        margin-top: 10%;
+    }
+    .ibm{
+        margin-top: 25%;
+        margin-bottom: -15%;
+        display: flex;flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    #google{
+        padding: 0px 0px 25px 35%; 
+        height: 35px;
+        width: 120px;
+        justify-content: space-between;
+    } 
+    #iOS{
+        margin-bottom: 8%;
+        cursor: pointer;
+    }
+    #Mac{
+        margin-right: 2%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+        text-align: center;
+        height: 400px;
+    }
+    .ppp{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #first{
+        margin-top: 100%;
+        height: 50px;
+        width: 50px;
+        margin: 50px 5px 0px 0px; 
+    }
+    .ppp{
+        font-size: 15px;
+        margin-bottom: 15%;
+        margin-left: 8%;
+        line-height: 20px;
+    }
+    .part-pied1{
+        margin-bottom: 10%;
+        margin-left: 8%;
+        justify-content: space-around;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraf-dern{
+        display: flex;
+        flex-direction: column;
+    }
+    #iOS{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #Mac{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #first-logo{
+        width: 30%;
+        margin-top: 30%;
+        margin-left: 35%;
+    }
+    .bb{
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+    .refaire{
+        max-width: 375px;
+        /* background-color: blue; */
+        background-repeat: no-repeat;
+        background-image: url(bg-header-desktop.png);
+        background-size: contain;
+        margin: auto;
+        overflow: hidden;
+    } 
+    #fuck{
+        width: 400px;
+        margin-right: 20px;
+    }
+} 
