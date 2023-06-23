@@ -153,6 +153,7 @@ ul{
 .div-meme{
     width: 96%;
     height: 280px;
+    color: white;
     background-color: rgb(74, 35, 110);
     margin-bottom: 5%;
     border-radius: 12px;
@@ -480,9 +481,6 @@ footer li {
         margin-top: 3%;
         margin-left: -20%;
      }
-    .container{
-        background-color: aquamarine;
-    }
     .second-section .info{
         width: 100%;
     }
